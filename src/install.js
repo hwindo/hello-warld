@@ -1,13 +1,13 @@
 import HelloWarld from "./components/HelloWarld.vue";
 
-const HelloWarldInstall = {
-    install(Vue, options) {
+const installer = {
+    install(Vue) {
         Vue.component("hello-warld", HelloWarld);
     }
 };
 
 if (typeof window !== "undefined" && window.Vue) {
-    window.Vue.use(HelloWarldInstall);
+    window.Vue.use(installer);
 }
 
-export default HelloWarldInstall;
+export default installer;
