@@ -1,4 +1,8 @@
-# hello-warld-simple
+# hello-warld
+A simple hello word messsage
+
+## Usage
+```<hello-warld msg="Hello Warld!">```
 
 ## Project setup
 ```
